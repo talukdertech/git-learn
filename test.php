@@ -1,15 +1,3 @@
 <?php
-$students=["Minhaz","Azharul","Shakil"];
-echo "Hello This is my First Git Learn";
+echo "<p>Copyright &copy; 1999-" . date("Y") . " W3Schools.com</p>";
 ?>
-<table border="1" width="200" cellpadding="5" cellspacing="0">
-    <tr>
-        <th>Students Name</th>
-    </tr>
-    <?php
-    foreach($newStudents as $student){
-        echo "<tr><td><center>$student</center></td></tr>";
-    }
-    ?>
-</table>
-
